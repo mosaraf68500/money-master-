@@ -182,3 +182,13 @@ const products = [
 
 // const result =products.find(p =>p.price>1200);
 // console.log(result)
+
+const isActiove=false;
+const showUser=()=>console.log("show user active");
+const hideUser=()=>console.log("hide user");
+
+isActiove?showUser():hideUser();
+
+
+isActiove && showUser();
+
